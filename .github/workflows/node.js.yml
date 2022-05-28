@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    - run: npm i --package-lock-only
 
     runs-on: ubuntu-latest
 
